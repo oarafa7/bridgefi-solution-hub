@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Background Elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/4 left-1/2 w-[800px] h-[800px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-bridge-50/40 blur-3xl" />
-        <div className="absolute bottom-1/3 right-0 w-[400px] h-[400px] rounded-full bg-blue-50/40 blur-3xl" />
+        <div className="absolute bottom-1/3 right-0 w-[400px] h-[400px] rounded-full bg-bridge-green-50/40 blur-3xl" />
       </div>
 
       <div className="container-custom relative">
@@ -34,11 +34,11 @@ const Hero = () => {
           </AnimatedElement>
 
           <AnimatedElement animation="fade-in" delay={600} className="flex flex-col sm:flex-row gap-4 w-full justify-center mb-8">
-            <Button size="lg" className="rounded-full px-8 bg-bridge-600 text-white hover:bg-bridge-700 shadow-md hover:shadow-lg transition-all">
+            <Button size="lg" className="rounded-full px-8 bg-bridge-green text-white hover:bg-bridge-green-700 shadow-md hover:shadow-lg transition-all">
               Get Started
               <ArrowRight size={16} className="ml-2" />
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full px-8 border-slate-300 text-slate-700 hover:bg-slate-50 hover:text-bridge-700 transition-all">
+            <Button variant="outline" size="lg" className="rounded-full px-8 border-slate-300 text-slate-700 hover:bg-slate-50 hover:text-bridge-green transition-all">
               Learn More
             </Button>
           </AnimatedElement>
@@ -51,14 +51,14 @@ const Hero = () => {
         {/* Hero Image/Visual */}
         <AnimatedElement animation="fade-in" delay={600} className="relative mx-auto max-w-4xl">
           <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-100">
-            <div className="aspect-[16/9] bg-gradient-to-br from-bridge-50 to-slate-50 relative">
+            <div className="aspect-[16/9] bg-gradient-to-br from-bridge-green-50 to-slate-50 relative">
               {/* Placeholder for a platform visualization - would be replaced by an actual image */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-3/4 h-3/4 rounded-xl bg-white shadow-lg p-6">
-                  <div className="h-8 w-48 bg-bridge-100 rounded-md mb-4"></div>
+                  <div className="h-8 w-48 bg-bridge-green-100 rounded-md mb-4"></div>
                   <div className="flex gap-4 mb-4">
-                    <div className="h-24 w-1/3 bg-bridge-50 rounded-md"></div>
-                    <div className="h-24 w-1/3 bg-blue-50 rounded-md"></div>
+                    <div className="h-24 w-1/3 bg-bridge-green-50 rounded-md"></div>
+                    <div className="h-24 w-1/3 bg-bridge-green-50 rounded-md"></div>
                     <div className="h-24 w-1/3 bg-slate-50 rounded-md"></div>
                   </div>
                   <div className="h-6 w-full bg-slate-50 rounded-md mb-3"></div>
@@ -67,23 +67,23 @@ const Hero = () => {
               </div>
               
               {/* Decorative Elements */}
-              <div className="absolute top-8 left-8 w-20 h-20 rounded-full bg-bridge-300/20 animate-pulse-subtle"></div>
-              <div className="absolute bottom-12 right-12 w-16 h-16 rounded-full bg-blue-300/20 animate-pulse-subtle" style={{ animationDelay: '1s' }}></div>
-              <div className="absolute top-1/2 left-1/4 w-12 h-12 rounded-full bg-bridge-400/10 animate-float"></div>
+              <div className="absolute top-8 left-8 w-20 h-20 rounded-full bg-bridge-green-300/20 animate-pulse-subtle"></div>
+              <div className="absolute bottom-12 right-12 w-16 h-16 rounded-full bg-bridge-green-300/20 animate-pulse-subtle" style={{ animationDelay: '1s' }}></div>
+              <div className="absolute top-1/2 left-1/4 w-12 h-12 rounded-full bg-bridge-green-400/10 animate-float"></div>
             </div>
             
             {/* Platform Stats */}
             <div className="grid grid-cols-3 divide-x divide-slate-100 py-6">
               <div className="flex flex-col items-center justify-center p-4">
-                <span className="text-3xl font-semibold text-bridge-700">$720M+</span>
+                <span className="text-3xl font-semibold text-bridge-green">$720M+</span>
                 <span className="text-sm text-slate-500 mt-1">Assets Tokenized</span>
               </div>
               <div className="flex flex-col items-center justify-center p-4">
-                <span className="text-3xl font-semibold text-bridge-700">3,400+</span>
+                <span className="text-3xl font-semibold text-bridge-green">3,400+</span>
                 <span className="text-sm text-slate-500 mt-1">Businesses Served</span>
               </div>
               <div className="flex flex-col items-center justify-center p-4">
-                <span className="text-3xl font-semibold text-bridge-700">24hr</span>
+                <span className="text-3xl font-semibold text-bridge-green">24hr</span>
                 <span className="text-sm text-slate-500 mt-1">Average Financing Time</span>
               </div>
             </div>
@@ -102,8 +102,8 @@ const Hero = () => {
           
           <div className="absolute -bottom-10 -left-10 md:-left-20 lg:-left-32 w-60 h-36 bg-white rounded-xl shadow-lg p-4 border border-slate-100 -rotate-3 animate-float" style={{ animationDelay: '2s' }}>
             <div className="flex justify-between items-center mb-3">
-              <div className="h-4 w-20 bg-blue-100 rounded"></div>
-              <div className="h-6 w-16 bg-bridge-100 rounded"></div>
+              <div className="h-4 w-20 bg-bridge-green-100 rounded"></div>
+              <div className="h-6 w-16 bg-bridge-green-100 rounded"></div>
             </div>
             <div className="h-12 w-full bg-slate-50 rounded mb-2"></div>
             <div className="flex justify-between">
