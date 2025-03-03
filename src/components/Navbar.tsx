@@ -59,23 +59,27 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <span className="text-2xl font-semibold bg-gradient-to-r from-bridge-700 to-bridge-500 bg-clip-text text-transparent">Bridge</span>
+          <img 
+            src="/bridge-logo.png" 
+            alt="Bridge Logo" 
+            className="h-8 w-auto"
+          />
         </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-sm text-slate-700 hover:text-bridge-600 transition-colors font-medium">Features</a>
-          <a href="#how-it-works" className="text-sm text-slate-700 hover:text-bridge-600 transition-colors font-medium">How It Works</a>
-          <a href="#benefits" className="text-sm text-slate-700 hover:text-bridge-600 transition-colors font-medium">Benefits</a>
-          <a href="#contact" className="text-sm text-slate-700 hover:text-bridge-600 transition-colors font-medium">Contact</a>
+          <a href="#features" className="text-sm text-slate-700 hover:text-bridge-green-800 transition-colors font-medium">Features</a>
+          <a href="#how-it-works" className="text-sm text-slate-700 hover:text-bridge-green-800 transition-colors font-medium">How It Works</a>
+          <a href="#benefits" className="text-sm text-slate-700 hover:text-bridge-green-800 transition-colors font-medium">Benefits</a>
+          <a href="#contact" className="text-sm text-slate-700 hover:text-bridge-green-800 transition-colors font-medium">Contact</a>
         </nav>
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="outline" size="sm" className="rounded-full border-bridge-500 text-bridge-600 hover:text-bridge-700 hover:bg-bridge-50">
+          <Button variant="outline" size="sm" className="rounded-full border-bridge-green-800 text-bridge-green-800 hover:text-bridge-green-900 hover:bg-bridge-green-50">
             Log In
           </Button>
-          <Button size="sm" className="rounded-full bg-bridge-600 text-white hover:bg-bridge-700">
+          <Button size="sm" className="rounded-full bg-bridge-green text-white hover:bg-bridge-green-800">
             Get Started
           </Button>
         </div>
@@ -102,28 +106,28 @@ const Navbar = () => {
           <nav className="flex flex-col gap-6 mb-8">
             <a 
               href="#features" 
-              className="text-lg font-medium text-slate-800 hover:text-bridge-600 transition-colors"
+              className="text-lg font-medium text-slate-800 hover:text-bridge-green-800 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Features
             </a>
             <a 
               href="#how-it-works" 
-              className="text-lg font-medium text-slate-800 hover:text-bridge-600 transition-colors"
+              className="text-lg font-medium text-slate-800 hover:text-bridge-green-800 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               How It Works
             </a>
             <a 
               href="#benefits" 
-              className="text-lg font-medium text-slate-800 hover:text-bridge-600 transition-colors"
+              className="text-lg font-medium text-slate-800 hover:text-bridge-green-800 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Benefits
             </a>
             <a 
               href="#contact" 
-              className="text-lg font-medium text-slate-800 hover:text-bridge-600 transition-colors"
+              className="text-lg font-medium text-slate-800 hover:text-bridge-green-800 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact
@@ -131,10 +135,10 @@ const Navbar = () => {
           </nav>
 
           <div className="flex flex-col gap-4 mt-auto">
-            <Button variant="outline" className="w-full justify-center rounded-full border-bridge-500 text-bridge-600 hover:text-bridge-700 hover:bg-bridge-50">
+            <Button variant="outline" className="w-full justify-center rounded-full border-bridge-green-800 text-bridge-green-800 hover:text-bridge-green-900 hover:bg-bridge-green-50">
               Log In
             </Button>
-            <Button className="w-full justify-center rounded-full bg-bridge-600 text-white hover:bg-bridge-700">
+            <Button className="w-full justify-center rounded-full bg-bridge-green text-white hover:bg-bridge-green-800">
               Get Started
             </Button>
           </div>
