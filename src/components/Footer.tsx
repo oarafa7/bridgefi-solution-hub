@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -9,7 +8,11 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <a href="#" className="inline-block mb-4">
-              <span className="text-2xl font-semibold bg-gradient-to-r from-bridge-700 to-bridge-500 bg-clip-text text-transparent">Bridge</span>
+              <img 
+                src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
+                alt="Bridge Logo" 
+                className="h-8 w-auto"
+              />
             </a>
             <p className="text-slate-600 mb-6 max-w-md">
               Revolutionizing business financing through blockchain technology. We connect businesses 

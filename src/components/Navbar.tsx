@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -60,7 +59,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img 
-            src="/bridge-logo.png" 
+            src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
             alt="Bridge Logo" 
             className="h-8 w-auto"
           />
