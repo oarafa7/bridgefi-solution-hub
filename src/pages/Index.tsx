@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -30,11 +29,12 @@ const Index = () => {
     // Update document title
     document.title = "Bridge - Blockchain-Powered Business Financing";
     
-    // Set favicon
+    // Set favicon with larger size
     const link = document.querySelector("link[rel~='icon']") as HTMLLinkElement || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
     link.href = '/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png';
+    link.sizes = '32x32'; // Specify favicon size
     document.getElementsByTagName('head')[0].appendChild(link);
   }, []);
 

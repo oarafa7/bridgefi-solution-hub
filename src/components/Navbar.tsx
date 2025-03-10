@@ -61,7 +61,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/e0be2166-7286-4336-928d-316bc468b851.png" 
             alt="Bridge Logo" 
-            className="h-8 w-auto"
+            className="h-12 w-auto"
           />
         </a>
 
