@@ -22,24 +22,24 @@ const Hero = () => {
 
           <AnimatedElement animation="fade-in" delay={200} className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 bg-gradient-to-r from-gray-900 via-bridge-900 to-gray-900 bg-clip-text text-transparent">
-              Unlock Liquidity Through Asset Tokenization
+              Unlock Capital. Invest in the Future.
             </h1>
           </AnimatedElement>
 
           <AnimatedElement animation="fade-in" delay={400} className="max-w-2xl mx-auto">
             <p className="text-lg md:text-xl text-slate-600 mb-8">
-              Bridge connects businesses with capital through blockchain-powered financing solutions, 
-              enabling faster, more transparent access to funds while removing traditional banking barriers.
+              Bridge is the first blockchain-powered RWA financing platform in the MENA region, enabling 
+              businesses to access fast funding and investors to participate in fractional real-world asset investments.
             </p>
           </AnimatedElement>
 
           <AnimatedElement animation="fade-in" delay={600} className="flex flex-col sm:flex-row gap-4 w-full justify-center mb-8">
             <Button size="lg" className="rounded-full px-8 bg-bridge-green text-white hover:bg-bridge-green-700 shadow-md hover:shadow-lg transition-all">
-              Get Started
+              🔹 Get Funded
               <ArrowRight size={16} className="ml-2" />
             </Button>
             <Button variant="outline" size="lg" className="rounded-full px-8 border-slate-300 text-slate-700 hover:bg-slate-50 hover:text-bridge-green transition-all">
-              Learn More
+              🔹 Start Investing
             </Button>
           </AnimatedElement>
 

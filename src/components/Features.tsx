@@ -6,33 +6,28 @@ import { Button } from "@/components/ui/button";
 const features = [
   {
     icon: <Database className="h-6 w-6 text-bridge-green" />,
-    title: "Asset Tokenization",
-    description: "Convert invoices and other financial assets into digital tokens on the blockchain for increased liquidity and transparency."
+    title: "Instant Liquidity",
+    description: "Businesses can convert unpaid invoices or assets into capital within days."
   },
   {
     icon: <Clock className="h-6 w-6 text-bridge-green" />,
-    title: "Fast Financing",
-    description: "Access funds within 24 hours instead of weeks, with a streamlined digital process that eliminates paperwork."
+    title: "Fractional Investing",
+    description: "Investors can own a portion of high-value assets with low entry costs."
   },
   {
     icon: <Shield className="h-6 w-6 text-bridge-green" />,
-    title: "Enhanced Security",
-    description: "Benefit from blockchain's immutable ledger and smart contracts that automatically enforce payment terms."
+    title: "Blockchain Transparency",
+    description: "Secure, tamper-proof transactions with automated smart contracts."
   },
   {
     icon: <BarChart4 className="h-6 w-6 text-bridge-green" />,
-    title: "Data Analytics",
-    description: "Gain insights into your financing patterns with detailed analytics and reporting tools."
+    title: "Global Accessibility",
+    description: "Invest or get funded from anywhere with seamless digital transactions."
   },
   {
     icon: <Globe className="h-6 w-6 text-bridge-green" />,
-    title: "Global Access",
-    description: "Connect with investors worldwide, expanding your financing options beyond traditional geographic limitations."
-  },
-  {
-    icon: <RefreshCw className="h-6 w-6 text-bridge-green" />,
-    title: "Flexible Terms",
-    description: "Customize financing terms to match your business needs with transparent fee structures and no hidden costs."
+    title: "DeFi-Powered Growth",
+    description: "Unlock capital through decentralized finance (DeFi) liquidity pools."
   }
 ];
 
@@ -45,11 +40,11 @@ const Features = () => {
             Key Features
           </span>
           <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-            Redefining Business Financing Through Blockchain
+            The Future of SME Financing & Investment
           </h2>
           <p className="text-slate-600">
-            Our platform combines the security and transparency of blockchain technology 
-            with the efficiency of modern financing solutions.
+            Bridge connects businesses seeking capital with investors looking for secure, high-yield opportunities. 
+            Using blockchain technology, we streamline invoice factoring, supply chain financing, and fractional ownership of assets.
           </p>
         </AnimatedElement>
 
@@ -66,7 +61,7 @@ const Features = () => {
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-                <p className="text-slate-600">{feature.description}</p>
+                <p className="text-slate-600">✅ {feature.description}</p>
               </div>
             </AnimatedElement>
           ))}

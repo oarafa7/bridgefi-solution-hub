@@ -3,23 +3,15 @@ import { ChevronRight, Building, User } from "lucide-react";
 import AnimatedElement from "./AnimatedElement";
 
 const businessBenefits = [
-  "Access financing in as little as 24 hours",
-  "No need for traditional credit checks",
-  "Tokenize multiple asset types (invoices, purchase orders, etc.)",
-  "Reduce dependency on traditional banking relationships",
-  "Transparent fee structure with no hidden costs",
-  "Improve cash flow predictability",
-  "Access a global network of investors"
+  "Fast Funding: No more waiting for bank approvals—access liquidity in days.",
+  "Flexible Terms: Sell invoices or tokenize assets without restrictive loans.",
+  "Growth-Driven: Secure working capital and reinvest in your business."
 ];
 
 const investorBenefits = [
-  "Invest in asset-backed tokens with clear risk profiles",
-  "Diversify your portfolio with short-term, secured investments",
-  "Access previously unavailable SME funding opportunities",
-  "Select investments based on industry, geography, or risk tolerance",
-  "Automated settlements through smart contracts",
-  "Full transparency on all investments",
-  "Higher yields compared to traditional fixed-income assets"
+  "High-Yield Returns: Earn stable returns from real-world assets.",
+  "Diversified Portfolio: Invest in multiple asset classes with fractional ownership.",
+  "Blockchain Security: Enjoy transparent, tamper-proof transactions."
 ];
 
 const Benefits = () => {
@@ -31,7 +23,7 @@ const Benefits = () => {
             Benefits
           </span>
           <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-            Advantages for All Participants
+            Why Choose Bridge?
           </h2>
           <p className="text-slate-600">
             Bridge creates value for both businesses seeking financing and investors 
@@ -54,7 +46,7 @@ const Benefits = () => {
                 {businessBenefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-bridge-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">{benefit}</span>
+                    <span className="text-slate-700">✔ {benefit}</span>
                   </li>
                 ))}
               </ul>
@@ -89,7 +81,7 @@ const Benefits = () => {
                 {investorBenefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-bridge-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">{benefit}</span>
+                    <span className="text-slate-700">✔ {benefit}</span>
                   </li>
                 ))}
               </ul>

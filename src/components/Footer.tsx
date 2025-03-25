@@ -1,3 +1,4 @@
+
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -15,8 +16,9 @@ const Footer = () => {
               />
             </a>
             <p className="text-slate-600 mb-6 max-w-md">
-              Revolutionizing business financing through blockchain technology. We connect businesses 
-              with capital by tokenizing real-world assets.
+              Bridge is revolutionizing SME financing and investment by leveraging blockchain technology to unlock real-world assets. 
+              From invoice factoring to supply chain financing and fractional investments, we connect businesses and investors in a 
+              seamless, secure ecosystem.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-slate-400 hover:text-bridge-600 transition-colors">
@@ -35,11 +37,11 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900 mb-4">Platform</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">How It Works</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">For Businesses</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">For Investors</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Security</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 How It Works</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 For Businesses</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 For Investors</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 FAQs</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 Blog</a></li>
             </ul>
           </div>
           
@@ -47,23 +49,23 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900 mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Blog</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Documentation</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Case Studies</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">FAQs</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Whitepaper</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 About Us</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 Documentation</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 Case Studies</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 Whitepaper</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">📌 Contact</a></li>
             </ul>
           </div>
           
           {/* Company */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900 mb-4">Company</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900 mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">About Us</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Careers</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Contact</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Press Kit</a></li>
-              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Partners</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Cookie Policy</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Compliance</a></li>
+              <li><a href="#" className="text-slate-600 hover:text-bridge-600 transition-colors">Security</a></li>
             </ul>
           </div>
         </div>

@@ -5,18 +5,18 @@ import AnimatedElement from "./AnimatedElement";
 const steps = [
   {
     number: "01",
-    title: "Upload Your Assets",
-    description: "Securely upload your invoices or other financial assets to the Bridge platform.",
+    title: "Apply",
+    description: "Businesses submit invoices, real estate, or other assets to tokenize and raise funds.",
     details: [
-      "Supports multiple document formats",
-      "Automated data extraction",
-      "Secure, encrypted storage"
+      "Multiple asset types supported",
+      "Simple digital application process",
+      "Secure document upload"
     ]
   },
   {
     number: "02",
-    title: "Asset Verification",
-    description: "Our platform verifies the validity of your assets through automated and manual checks.",
+    title: "Get Verified",
+    description: "Bridge evaluates assets and onboards investors to participate in financing.",
     details: [
       "Blockchain-based verification process",
       "Anti-fraud protection measures",
@@ -25,22 +25,22 @@ const steps = [
   },
   {
     number: "03",
-    title: "Tokenization Process",
-    description: "Your verified assets are converted into digital tokens on our secure blockchain network.",
+    title: "Investment & Funding",
+    description: "Investors fund a portion or full value of the asset, unlocking liquidity for businesses.",
     details: [
-      "Smart contract creation",
-      "Transparent token valuation",
-      "Immutable blockchain record"
+      "Fractional investment options",
+      "Transparent funding process",
+      "Blockchain-secured transactions"
     ]
   },
   {
     number: "04",
-    title: "Financing & Settlement",
-    description: "Receive funds as investors purchase your asset-backed tokens through our marketplace.",
+    title: "Earn & Repay",
+    description: "Businesses repay based on agreed terms, and investors earn fixed returns.",
     details: [
-      "Fast fund disbursement",
-      "Multiple currency options",
-      "Automated repayment scheduling"
+      "Automated repayment scheduling",
+      "Fixed return rates for investors",
+      "Full transaction transparency"
     ]
   }
 ];
@@ -54,7 +54,7 @@ const HowItWorks = () => {
             The Process
           </span>
           <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-            How Bridge Works
+            Fast, Simple, Secure
           </h2>
           <p className="text-slate-600">
             Our streamlined process takes you from asset submission to funding in four simple steps,

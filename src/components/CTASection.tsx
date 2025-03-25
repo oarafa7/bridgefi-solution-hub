@@ -22,24 +22,21 @@ const CTASection = () => {
           
           <AnimatedElement animation="fade-in" delay={200}>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6">
-              Ready to Transform Your Business Financing?
+              Start Funding. Start Investing.
             </h2>
           </AnimatedElement>
           
           <AnimatedElement animation="fade-in" delay={400}>
             <p className="text-lg text-slate-600 mb-8">
-              Join thousands of businesses that have already discovered the power of blockchain-enabled 
-              financing. Create your account in minutes and get access to capital when you need it.
+              Join Bridge today and experience the future of real-world asset financing. Whether you're a business 
+              in need of liquidity or an investor looking for secure opportunities, we make it simple, fast, and transparent.
             </p>
           </AnimatedElement>
           
           <AnimatedElement animation="fade-in" delay={600} className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="rounded-full px-8 bg-bridge-green text-white hover:bg-bridge-green-700">
-              Create Free Account
+              🔹 Sign Up Now
               <ArrowRight size={16} className="ml-2" />
-            </Button>
-            <Button variant="outline" size="lg" className="rounded-full px-8 border-slate-300 hover:border-bridge-green-300 hover:bg-white">
-              Schedule a Demo
             </Button>
           </AnimatedElement>
           
